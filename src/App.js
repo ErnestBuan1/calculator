@@ -23,14 +23,14 @@ function App() {
 
   const handleVelascoClick = () => {
     setShowFullName(true);
-    setDisplay('Juan Dela Cruz');
+    setDisplay('Ernest Benedict Buan');
   };
 
   return (
     <div className="calculator-container">
-      <h1>Calculator of Juan Dela Cruz - IT3A</h1>
+      <h1>Calculator of Ernest Benedict Buan - IT3A</h1>
       <div className="calculator-display">
-        {showFullName ? 'Juan Dela Cruz' : display || '0'}
+        {showFullName ? 'Ernest Benedict Buan' : display || '0'}
       </div>
       <div className="calculator-keys">
         <button onClick={() => handleButtonClick('1')}>1</button>
@@ -50,7 +50,7 @@ function App() {
         <button onClick={handleEqualClick}>=</button>
         <button onClick={() => handleButtonClick('C')}>C</button>
       </div>
-      <button className="surname-button" onClick={handleVelascoClick}>VELASCO</button>
+      <button className="surname-button" onClick={handleVelascoClick}>BUAN</button>
     </div>
   );
 }
